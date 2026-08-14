@@ -1,86 +1,183 @@
-Import argparse
+👋 Hi, I'm Kumari
 
-Import pandas as pd
+💻 Full Stack Developer | MERN Stack | AI/ML Enthusiast
 
-From sklearn.ensemble import
+I’m a Computer Science Engineering student passionate about building full-stack web applications, AI-powered solutions, and practical software projects.
 
-Randomforestclassifier
+I enjoy turning ideas into functional products using modern web technologies and continuously improving my problem-solving and development skills.
 
-From sklearn.model_selection import
+---
 
-Train_test_split
+🚀 About Me
 
-Import matplotlib.pyplot as plt
+- 🎓 Computer Science Engineering student
+- 💻 Focused on Full Stack Web Development
+- ⚛️ Building applications with the MERN Stack
+- 🤖 Interested in Artificial Intelligence & Machine Learning
+- 🧩 Practicing Data Structures & Algorithms
+- 🌱 Currently improving my skills in React, Node.js, APIs, and scalable web applications
+- 💼 Open to Full Stack / Software Development Internships
 
-Def analyze(data):
+---
 
-Df=pd.read_csv(data)
+🛠️ Tech Stack
 
-Print(df.decscribe())
+💻 Languages
 
-Def predict(model,data):
+"Python" "JavaScript" "TypeScript" "C" "HTML" "CSS"
 
-Df=pd.read_csv(data)
+🌐 Frontend
 
-X=df.drop(‘target’,axis=1)
+"React.js" "HTML5" "CSS3" "JavaScript"
 
-Y=df[‘target’]
+⚙️ Backend
 
-X_train,x_test,y_train,y_test=train_test_split(x,y,test_size=0.2,random_state=42)
+"Node.js" "Express.js" "REST APIs"
 
-Rfc=randomforestclassifier(n_estimators=100,random_state=42)
+🗄️ Database
 
-Rfc.fit(x_train,y_train)
+"MongoDB" "MySQL" "SQL"
 
-Y_pred=rfc.predict(x_test)
+🔐 Authentication & APIs
 
-Print(“modelaccuracy:”,rfc.score(x_test,y_test))
+"JWT Authentication" "REST API" "Mongoose"
 
-Def visualize(data,type):
+🤖 AI / ML
 
-Df=pd.read_csv(data)
+"Python" "Machine Learning" "AI Projects"
 
-If type ==”bar”:df.plot(kind=”bar”)
+🧰 Tools
 
-Plt.show()
+"Git" "GitHub" "VS Code" "Postman"
 
-Elif type==”line”:
+---
 
-Df.plot(kind=”line”)
+⭐ Featured Projects
 
-Plt.show()
+🛣️ RoadWatch-AI
 
-Else:
+AI-powered Smart Infrastructure & Road Monitoring Platform
 
-Print(“invalid visualization type”)
+A platform designed to help citizens report road infrastructure problems and improve road monitoring.
 
-If_name_==”_main_”:
+Highlights
 
-Parser=argparse.argumentparser(description=”crime and solver”)
+- Road hazard reporting
+- Infrastructure monitoring
+- Location-based reporting
+- AI-powered functionality
+- Real-world civic technology use case
 
-Subparsers=parser.add_subparsers(dest=”command”)
+Tech: AI/ML • Web Development • JavaScript
 
-Analyze_parser=subparsers.add_parser(“alalyze”)
+---
 
-Analyze_parser.add_argument(“—data”,required=true)
+♻️ Waste Management & Recycling Platform
 
-Predict_parser=subparsers.add_parser(“predict”)
+A full-stack application designed to manage waste complaints and encourage recycling.
 
-Predict_parser.add_argument(“—model”,required=true)
+Highlights
 
-Predict_parser.add_argument(“—data”,reqired=true)
+- User authentication
+- Complaint management
+- Recycling tracking
+- Admin dashboard
+- Location/map integration
+- Image uploads
+- Complaint status tracking
+- Data visualization
 
-Predict_parser.add_argument(“—type”,required=true)
+Tech: React • Node.js • Express.js • MongoDB • REST API
 
-Args=parser.parse_args()
+---
 
-If args.command== “analyze”:analyze (args.data)
+💳 MERN SaaS Billing Portal
 
-Elif args.command ==”predict” : predict(args.model,args.data)
+A SaaS-style billing application developed using the MERN stack.
 
-Elif args.command ==”predict”: predict(args.data,args.type)
+Tech: MongoDB • Express.js • React.js • Node.js • JavaScript
 
-Else:
+---
 
-Parser.print_help()
+📊 Full Stack Analytics Dashboard
 
+A web-based analytics dashboard focused on displaying and managing application data through an interactive interface.
+
+Tech: JavaScript • Full Stack Web Development
+
+---
+
+🎬 Remotion Mirakl Assignment
+
+A technical assignment developed using modern TypeScript-based development tools and Remotion.
+
+Tech: TypeScript • Remotion
+
+---
+
+🤖 Tic-Tac-Toe AI
+
+An AI-based Tic-Tac-Toe game developed using Python.
+
+Tech: Python • Artificial Intelligence
+
+---
+
+📚 Currently Learning
+
+Full Stack Development
+        ↓
+React.js → Node.js → Express.js → MongoDB
+        ↓
+REST APIs → Authentication → Deployment
+        ↓
+AI / ML → Problem Solving → DSA
+
+---
+
+💡 What I Like Building
+
+🚀 Full-stack web applications
+🤖 AI-powered applications
+📊 Interactive dashboards
+♻️ Real-world problem-solving platforms
+🗺️ Location-based applications
+🔐 Secure web applications
+
+---
+
+🏆 My Development Journey
+
+I believe in learning by building.
+
+From small Python and frontend projects to MERN applications, AI projects, dashboards, and real-world problem-solving platforms, I continuously work on improving my development skills.
+
+My goal is to become a strong Full Stack Software Developer who can design, build, and deploy useful applications.
+
+---
+
+📈 GitHub Activity
+
+I actively use GitHub to:
+
+- Build and maintain projects
+- Practice new technologies
+- Experiment with ideas
+- Document my learning
+- Collaborate and improve my development workflow
+
+---
+
+🤝 Let's Connect
+
+I'm always interested in connecting with developers, recruiters, and people working on interesting technology projects.
+
+💼 Open to
+
+Full Stack Development Internships | Software Development Internships | AI/ML Opportunities
+
+---
+
+⭐ Thanks for visiting my profile!
+
+Let's build something meaningful together. 🚀
