@@ -1,3 +1,7 @@
+<picture>
+   <source media="(prefers-color-scheme: dark)" srcset="art/header-dark.png">
+   <img alt="Logo for Kumari Git3" src="art/header-light.png">
+</picture>
 👋 Hi, I'm Kumari
 
 💻 Full Stack Developer | MERN Stack | AI/ML Enthusiast
